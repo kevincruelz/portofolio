@@ -7,6 +7,10 @@
 body {
     margin: 0px;
     padding: 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('https://teamwork.tf/images/map_context/ctf_2fort/spectator_0.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     font-family: 'Open Sans',sans-serif;
 }
 
@@ -81,6 +85,7 @@ section {
     margin: auto;
     display: flex;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 a.tbl-orange {
@@ -151,8 +156,14 @@ p {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 800;
     font-size: 25px;
+    transition: transform .2s;
+    margin: 0 auto;
     text-align: center;
     color: #ff6600;
+}
+
+.kartu-language:hover {
+    transform: scale(1.5);
 }
 
 #contact {
